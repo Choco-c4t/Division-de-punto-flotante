@@ -3,7 +3,6 @@
 #include <cstdint>
 #include <limits>
 
-// "union" permite ver los mismos 32 bits de un float como un entero sin signo (uint32_t), para poder manipularlos con operaciones bit a bit.
 union FloatUnion {
 	float f;
 	uint32_t u;
